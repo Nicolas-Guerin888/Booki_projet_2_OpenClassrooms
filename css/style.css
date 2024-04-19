@@ -47,6 +47,73 @@ nav a:hover {
     padding-top: 23px;
 }
 
+.formulaire {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+
+.bloc-logo-localisation {
+    background-color: var(--main-bg-color);
+    width: 50px;
+    position: relative;
+    border-radius: 15px 0 0 15px;
+}
+
+.bloc-logo-localisation i {
+    color: unset;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2em;
+}
+
+form input {
+    height: 100%;
+    padding: 0;
+    border: none;
+    border-top: 2px solid var(--main-bg-color);
+    border-bottom: 2px solid var(--main-bg-color);
+    width: 190px;
+    font-size: 1em;
+    font-weight: 600;
+    text-align: center;
+    outline: none;
+}
+
+.button-rechercher input[type="button"] {
+    background-color: var(--main-color);
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+    width: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 15px 15px 0;
+    height: 100%;
+    border: none;
+}
+
+/******Style pour boutton sur mobile******/
+.button-icone-rechercher {
+    background-color: var(--main-color);
+    width: 50px;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    display: none;
+}
+
+.button-icone-rechercher i {
+    color: white;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
 
 .main-container {
     width: 100%;
