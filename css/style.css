@@ -27,7 +27,7 @@ body {
 
 .logo {
     width: auto;
-    height: 1.3em;
+    height: 1.2em;
     padding-top: 30px;
 }
 
@@ -37,26 +37,38 @@ nav {
 }
 
 nav a {
-    margin: 0 0 0 60px;
-    padding-top: 25px;
+    margin: 0 0 0 70px;
+    padding-top: 17px;
 }
 
 nav a:hover {
     color: #0065FC;
     border-top: 2px solid #0065FC;
-    padding-top: 23px;
+    padding-top: 15px;
+}
+
+h1 {
+    margin-top: 59px;
+    font-size: 1.4em;
+    font-weight: 700;
+}
+
+h2 {
+    margin-top: 10px;
+    font-size: 1em;
+    font-weight: 400;
 }
 
 .formulaire {
-    margin-top: 20px;
+    margin-top: 33px;
     display: flex;
     flex-direction: row;
-    height: 50px;
+    height: 52px;
 }
 
 .bloc-logo-localisation {
     background-color: var(--main-bg-color);
-    width: 50px;
+    width: 52px;
     position: relative;
     border-radius: 15px 0 0 15px;
 }
@@ -72,14 +84,14 @@ nav a:hover {
 }
 
 form input {
-    height: 100%;
+    height: 48px;
     padding: 0;
     border: none;
     border-top: 2px solid var(--main-bg-color);
     border-bottom: 2px solid var(--main-bg-color);
-    width: 190px;
-    font-size: 1em;
-    font-weight: 600;
+    width: 192px;
+    font-size: 1.1em;
+    font-weight: 700;
     text-align: center;
     outline: none;
 }
@@ -87,7 +99,7 @@ form input {
 .button-rechercher input[type="button"] {
     background-color: var(--main-color);
     color: white;
-    font-size: 1em;
+    font-size: 1.1em;
     font-weight: 600;
     width: 135px;
     display: flex;
@@ -101,7 +113,7 @@ form input {
 /******Style pour boutton sur mobile******/
 .button-icone-rechercher {
     background-color: var(--main-color);
-    width: 50px;
+    width: 52px;
     border-radius: 15px;
     position: relative;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
@@ -117,13 +129,17 @@ form input {
 }
 
 .filtres {
-    margin-top: 20px;
-    height: 50px;
+    margin-top: 38px;
+    height: 40px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-size: 1em;
-    font-weight: 600;
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+.filtres i {
+    font-size: 1.2em;
 }
 
 .filtres-eco-fam-responsive,
@@ -141,9 +157,9 @@ form input {
     display: flex;
     flex-direction: row;
     border: solid var(--main-bg-color) 2px;
-    margin-left: 10px;
-    padding: 15px;
-    border-radius: 30px;
+    margin-left: 17px;
+    padding: 13px 17px 13px 17px;
+    border-radius: 40px;
 }
 
 .filtres-economique p,
@@ -158,6 +174,38 @@ form input {
     background-color: var(--filter-bg-color);
     }
 
+.information-section-1 {
+    margin-top: 42px;
+    height: 20px;
+    display: block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1em;
+}
+
+.bloc-logo-information {
+    border: var(--main-bg-color) 2px solid;
+    border-radius: 50%;
+    height: 100%;
+    width: 23px;
+    text-align: center;
+    position: relative;
+}
+
+.information-section-1 i {
+    display: block;
+    font-size: 0.7em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.information-section-1 p {
+    display: block;
+    margin-left: 5px;
+}
 
 .main-container {
     width: 100%;
@@ -203,7 +251,7 @@ a {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 38px;
 }
 
 .hebergements-and-populaires section {
