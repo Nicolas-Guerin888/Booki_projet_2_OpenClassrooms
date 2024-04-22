@@ -48,6 +48,7 @@ nav a:hover {
 }
 
 .formulaire {
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     height: 50px;
@@ -115,6 +116,49 @@ form input {
     transform: translate(-50%, -50%);
 }
 
+.filtres {
+    margin-top: 20px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.filtres-eco-fam-responsive,
+ .filtres-rom-pep-responsive {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.filtres-economique,
+ .filtres-familial,
+  .filtres-romantique,
+   .filtres-nos-pepites {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    border: solid var(--main-bg-color) 2px;
+    margin-left: 10px;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.filtres-economique p,
+ .filtres-familial p,
+  .filtres-romantique p,
+   .filtres-nos-pepites p {
+    margin-left: 10px;
+   }
+
+.filtres .filtres-eco-fam-responsive :hover,
+ .filtres-rom-pep-responsive :hover {
+    background-color: var(--filter-bg-color);
+    }
+
+
 .main-container {
     width: 100%;
     max-width: 1440px;
@@ -159,6 +203,7 @@ a {
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
 }
 
 .hebergements-and-populaires section {
