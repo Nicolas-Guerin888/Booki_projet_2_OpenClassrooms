@@ -114,6 +114,7 @@ form input {
     border-radius: 0 15px 15px 0;
     height: 100%;
     border: none;
+    cursor: pointer;
 }
 
 /******Style pour bouton sur mobile******/
@@ -133,6 +134,7 @@ form input {
     top: 50%;
     transform: translate(-50%, -50%);
 }
+/*******************************************/
 
 .filtres {
     margin-top: 38px;
@@ -146,6 +148,13 @@ form input {
 
 .filtres i {
     font-size: 22px;
+}
+
+.filtres a {
+    display: block;
+    display: flex;
+    padding: 13px 17px 13px 17px;
+    border-radius: 40px;
 }
 
 .filtres-eco-fam-responsive,
@@ -164,7 +173,6 @@ form input {
     flex-direction: row;
     border: solid var(--main-bg-color) 2px;
     margin-left: 17px;
-    padding: 13px 17px 13px 17px;
     border-radius: 40px;
 }
 
@@ -402,8 +410,31 @@ a {
     margin: 16px 0 0 16px;
 }
 
+footer {
+    background-color: var(--main-bg-color);
+    height: 163px;
+    margin-top: 62px;
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-between;*/
+}
 
+.footer {
+    width: 33%;
+    margin-left: 24px;
+    display: flex;
+    flex-direction: column;
+}
 
+h6 {
+    margin-top: 24px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+footer a {
+    margin-top: 16px;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 

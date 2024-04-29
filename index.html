@@ -20,8 +20,8 @@
             <div class="header">
                 <img src="images/logo/Booki.png" alt="logo du site Booki" class="logo">
                 <nav>
-                    <a href="">Hébergements</a>
-                    <a href="">Activités</a>
+                    <a href="#hebergement-anchor">Hébergements</a>
+                    <a href="#activites-anchor">Activités</a>
                 </nav>
             </div>
         </header>
@@ -37,7 +37,7 @@
                     </div>
                     <form action="" method="post">
                         <input id="ville-de-recherche" type="text" placeholder="Marseille, France" name="ville-de-recherche">
-                    </form>
+                    </form>            
                     <div class="button-icone-rechercher">
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
@@ -49,22 +49,30 @@
                     <p>Filtres</p>
                     <div class="filtres-eco-fam-responsive">
                         <div class="filtres-economique">
-                            <i class="fa-solid fa-money-bill-wave"></i>
-                            <p>Économique</p>
+                            <a href="">
+                                <i class="fa-solid fa-money-bill-wave"></i>
+                                <p>Économique</p>
+                            </a>
                         </div>
                         <div class="filtres-familial">
-                            <i class="fa-solid fa-person"></i>
-                            <p>Familial</p>
+                            <a href="">
+                                <i class="fa-solid fa-person"></i>
+                                <p>Familial</p>
+                            </a>
                         </div>
                     </div>
                     <div class="filtres-rom-pep-responsive">
                         <div class="filtres-romantique">
-                            <i class="fa-solid fa-heart"></i>
-                            <p>Romantique</p>
+                            <a href="">
+                                <i class="fa-solid fa-heart"></i>
+                                <p>Romantique</p>
+                            </a>    
                         </div>
                         <div class="filtres-nos-pepites">
-                            <i class="fa-solid fa-fire"></i>
-                            <p>Nos pépites</p>
+                            <a href="">
+                                <i class="fa-solid fa-fire"></i>
+                                <p>Nos pépites</p>
+                            </a>
                         </div>
                     </div>
                 </section>
@@ -76,7 +84,7 @@
                 </section>
             </div>
             <div class="hebergements-and-populaires">
-                <section class="hebergements">
+                <section id="hebergement-anchor" class="hebergements">
                     <div class="hebergements-title">
                         <h2 class="section-title">Hébergements à Marseille</h2>
                     </div>
@@ -269,8 +277,8 @@
                 </section>
             </div>
             <div class="activites">
-                <section class="activites">
-                    <h2 class="section-title">Activités à Marseille</h2>
+                <section id="activites-anchor" class="activites">
+                    <h2 class="section-title" >Activités à Marseille</h2>
                     <div class="activites-cards">
                         <a href="#">
                             <article class="card">
@@ -308,7 +316,24 @@
                 </section>
             </div>
         </main>
-        <footer></footer>
+        <footer>
+            <div class="footer">
+                <h6>À propos</h6>
+                <a href="#">Fonctionnement du site</a>
+                <a href="#">Conditions générales</a>
+                <a href="#">Données et confidentialités</a>
+            </div>
+            <div class="footer">
+                <h6>Nos hébergements</h6>
+                <a href="#">Charte qualité</a>
+                <a href="#">Proposer votre hôtel</a>
+            </div>
+            <div class="footer">
+                <h6>Assistance</h6>
+                <a href="#">Centre d'aide</a>
+                <a href="#">Nous contacter</a>
+            </div>
+        </footer>
     </div>
 </body>
 
