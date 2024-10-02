@@ -1,5 +1,7 @@
 Site BOOKI
 
+![Aperçu du site Booki](images/image_readme.png)
+
 Ce dépôt correspond au projet 2 de la formation Développeur Web d'OpenClassroom. 
 
 Il consiste en la création d'une page d'accueil d'une agence de voyages.
